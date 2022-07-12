@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--meta data-->
+    <title>***** IT Ticket System</title>
+  </head>
+  <body>
+    <h1>******** Tech Support<br>Ticket Request Form</h1>
+  <form method="post" action="tbd">
+    <section class="name">
+      <label for="name">Full Name</label>
+      <input name="name" id="name" type="text" value="name">
+    </section>
+  <hr>
+    <section class="department">
+      <label for="departments">Department</label> 
+      <input name="department" id="departments" list="department">
+      <datalist id="department">
+        <option value="C**"></option>
+        <option value="CL***"></option>
+        <option value="Construction"></option>
+        <option value="Fielding"></option>
+        <option value="FTTH"></option>
+        <option value="H*****"></option>
+        <option value="HR"></option>
+        <option value="L*****"></option>
+        <option value="Management"></option>
+        <option value="Permitting"></option>
+        <option value="R****"></option>
+      </datalist>
+    </section>
+  <hr>
+    <section class="description">
+      <span>Let us know what what is wrong.</span>
+      <br>
+      <textarea id="description" name="descritpion" rows="3" cols="40"></textarea>
+    </section>
+  <hr>
+    <section class="urgent">
+      <span>Is the issue Urgent?</span>
+      <br>
+      <input type="radio" name="ugent" id="yes" value="yes">
+      <label for="yes">Yes</label>
+      <input type="radio" name="urgent" id="no" value="no">
+      <label for="no">No</label>
+    </section>
+  <hr>
+    <section class="submittions">
+      <input type="submit" value="submit ticket">
+    </section>
+  </form> 
+  </body>
+<html>
